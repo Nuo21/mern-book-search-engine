@@ -1,10 +1,12 @@
 const express = require("express");
 const path = require("path");
 const db = require("./config/connection");
+//removed routes that was here
 
 //Adding the apollo server in
 const { ApolloServer } = require("apollo-server-express");
 const { typeDefs, resolvers } = require("./schemas");
+const { authMiddleware } = require("./utils/auth");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
