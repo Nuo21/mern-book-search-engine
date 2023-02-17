@@ -11,3 +11,5 @@ This application allows users to search for books through the book API from Goog
 ## Live Deploy Link
 
 https://still-gorge-68987.herokuapp.com/
+
+(Build successful and deployed. But when trying to open, says "Application Error". Will fix at later date. But everything works locally and on Apollo server.)
